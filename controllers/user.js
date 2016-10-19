@@ -17,9 +17,12 @@ var users = [
 
 
 ctrl.get('/', function(res, req, next){
-	rs.json(users);
+	rs.json(users[0]);
 });
 
+ctrl.get('/', function(res, req, next){
+	rs.json(users[1]);
+});
 
 
 module.exports = ctrl;
