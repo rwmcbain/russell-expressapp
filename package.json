@@ -2,7 +2,7 @@
   "name": "russell-expressapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rwmcbain/russell-expressapp#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "hbs": "^4.0.1",
     "path": "^0.12.7"
   }
 }
